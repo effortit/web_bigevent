@@ -75,7 +75,7 @@ $(function() {
         e.preventDefault()
             //发起ajax的post请求
         $.ajax({
-            url: 'api/login',
+            url: '/api/login',
             method: 'post',
             data: $(this).serialize(),
             success: function(res) {
